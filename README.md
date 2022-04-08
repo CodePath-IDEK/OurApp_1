@@ -77,8 +77,8 @@ upcoming auctions
    * Total Earning/Losses
 
 ## Wireframes
-[Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+[WireFrame](https://user-images.githubusercontent.com/75055276/162356465-23e227fa-2ede-40c9-a7c5-8f89b6584802.jpg)
+
 
 ### [BONUS] Digital Wireframes & Mockups
 
