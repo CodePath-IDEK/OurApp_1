@@ -14,13 +14,14 @@ Original App Design Project - README Template
 An app where various users can bid on a specific stock or cryptocurrency. Whoever bids the highest on a stock, they will be the owner of that specific stock. Additionally, Users can buy, sell, or view their collected earnings.
 
 ### App Evaluation
-[Evaluation of your app across the following attributes]
-- **Category:**
-- **Mobile:**
-- **Story:**
-- **Market:**
-- **Habit:**
-- **Scope:**
+Stock/Crypocurrency Tracker
+- **Description:** An app where various users can bid on a specific stock or cryptocurrency. Whoever bids the highest on a stock, they will be the owner of that specific stock. Additionally, Users can buy, sell, or view their collected earnings.
+- **Category:** Stock/Crypto Bidding Platform
+- **Mobile:** Uses data of a stock / crypto for users to view
+- **Story:** A simple platform used to purchase and sell a stock / crypto
+- **Market:** Anyone with an account would be able to access this app as long that they create an account within the database.
+- **Habit:** People are using this app daily to constantly monitor the current stock price and total earnings/losses.
+- **Scope:** V1 would lets the users signin/signup. V2 would allow the users to view current stock prices. V3 would let users view current auctions active. V4 would allow users to see total earnings/losses.
 
 ## Product Spec
 
