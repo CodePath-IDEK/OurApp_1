@@ -92,6 +92,16 @@ Created a working schema for a current auction post
 https://docs.google.com/document/d/1Exx61CYGsdXRBQqZePZUFKDnJC2fj-g1OLRk53fg2Tg/edit?usp=sharing 
 [Add table of models]
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+- Main Home Screen
+    - (Read) View user's total avaliable currency and Price Fluctuations (Total Earning/Losses)
+    - (Buy) Purchase a new token/stock
+    - (Sell) Liquidating a stock/token
+    
+- List Screen
+    - (Read) View avaiable stock/crypto to trade
+    - (Search) Find a specific stock/crypto
+    
+- User Profile
+    - (Log in) Enter specific login information
+    - (Log out) Sign off of the acccount 
+    - (Update) Profile Image and User Information
