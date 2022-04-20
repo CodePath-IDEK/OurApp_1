@@ -89,6 +89,7 @@ upcoming auctions
 [This section will be completed in Unit 9]
 ### Models
 Created a working schema for a current auction post
+https://docs.google.com/document/d/1Exx61CYGsdXRBQqZePZUFKDnJC2fj-g1OLRk53fg2Tg/edit?usp=sharing 
 [Add table of models]
 ### Networking
 - [Add list of network requests by screen ]
