@@ -6,8 +6,28 @@
 	<dict>
 		<key>Auction App.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>7</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>628692A5280E1986004BB50B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>628692BB280E1990004BB50B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>628692C5280E1990004BB50B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
