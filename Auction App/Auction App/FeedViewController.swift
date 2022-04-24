@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Parse
 
 class FeedViewController: UIViewController {
 
@@ -14,6 +15,28 @@ class FeedViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+    
+    
+    @IBAction func onLogOutButton(_ sender: Any) {
+        //log out action
+        //clears out parse cache, form parse perspective, user is not logged in anymore
+        
+        
+        PFUser.logOut()
+        
+        // switch user back to login in screen
+        // grab the storyboard, instantiate it
+        let main = UIStoryboard(name:"Main", bundle: nil)
+        let loginViewController = main.instantiateViewController(withIdentifier: "LoginViewController")
+        
+        guard let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene,let
+                delegate = windowScene.delegate as? SceneDelegate else {return}
+       
+        delegate.window?.rootViewController = loginViewController
+        
+    }
+    
+    
     
 
     /*
