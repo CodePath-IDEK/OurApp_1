@@ -5,6 +5,10 @@ User Story Checklist:
 - [x] Created Logout functionality
 - [] Created 3 tab bars for navigation
 
+Implement User Stories GIF:
+
+<img src='https://media.giphy.com/media/1eHNl6wWIZI0KTIGkU/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
 
 
 
