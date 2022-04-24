@@ -102,7 +102,13 @@
                         <viewLayoutGuide key="safeArea" id="5VF-CC-Gh0"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="qf5-ho-9RH"/>
+                    <navigationItem key="navigationItem" id="qf5-ho-9RH">
+                        <barButtonItem key="leftBarButtonItem" title="Logout 2" id="fDG-Vz-q3y">
+                            <connections>
+                                <action selector="onLogOutButton:" destination="XzX-Hx-Sq9" id="xmG-YD-61U"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cC0-QF-kOa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
