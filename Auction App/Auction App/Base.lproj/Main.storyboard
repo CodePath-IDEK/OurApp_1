@@ -38,10 +38,10 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hBk-ad-vB3">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hBk-ad-vB3">
                                 <rect key="frame" x="73" y="548" width="102" height="56"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="102" id="dkj-fc-P2H"/>
+                                    <constraint firstAttribute="width" constant="102" id="7jQ-aP-yV1"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="SignIn"/>
@@ -49,34 +49,37 @@
                                     <action selector="onSignIn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sAR-7n-oXi"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rB5-hU-xGh">
-                                <rect key="frame" x="235" y="548" width="102" height="56"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7cO-XZ-afG">
+                                <rect key="frame" x="226" y="548" width="102" height="56"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="SignUp"/>
                                 <connections>
-                                    <action selector="onSignIn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wSc-GJ-wDV"/>
-                                    <action selector="onSignUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2WK-do-Ae4"/>
+                                    <action selector="onSignUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hid-pW-v9f"/>
                                 </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="hBk-ad-vB3" firstAttribute="baseline" secondItem="rB5-hU-xGh" secondAttribute="baseline" id="4m8-UL-X0T"/>
-                            <constraint firstItem="hBk-ad-vB3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="73" id="DES-d0-75D"/>
-                            <constraint firstItem="DH9-PL-9mZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Fcb-Ro-2oK"/>
-                            <constraint firstItem="QIK-fg-LzA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="282" id="IVZ-dR-rph"/>
-                            <constraint firstItem="DH9-PL-9mZ" firstAttribute="top" secondItem="QIK-fg-LzA" secondAttribute="bottom" constant="8" id="PTw-0W-TJx"/>
-                            <constraint firstItem="DH9-PL-9mZ" firstAttribute="trailing" secondItem="x92-E6-gu4" secondAttribute="trailing" id="SKt-7r-gqO"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rB5-hU-xGh" secondAttribute="trailing" constant="77" id="X3D-UK-3du"/>
-                            <constraint firstItem="hBk-ad-vB3" firstAttribute="top" secondItem="x92-E6-gu4" secondAttribute="bottom" constant="45" id="bc8-Xl-RmL"/>
-                            <constraint firstItem="DH9-PL-9mZ" firstAttribute="leading" secondItem="ABv-eh-Zaw" secondAttribute="leading" id="cxv-Xb-pwH"/>
-                            <constraint firstItem="rB5-hU-xGh" firstAttribute="leading" secondItem="hBk-ad-vB3" secondAttribute="trailing" constant="60" id="dpY-V5-S09"/>
-                            <constraint firstItem="QIK-fg-LzA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="48" id="eKb-FA-9zU"/>
-                            <constraint firstItem="x92-E6-gu4" firstAttribute="top" secondItem="ABv-eh-Zaw" secondAttribute="bottom" constant="8" id="gF1-sv-6ce"/>
-                            <constraint firstItem="ABv-eh-Zaw" firstAttribute="leading" secondItem="x92-E6-gu4" secondAttribute="leading" id="kQr-0g-9yl"/>
-                            <constraint firstItem="ABv-eh-Zaw" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="oiC-4V-jD0"/>
-                            <constraint firstItem="QIK-fg-LzA" firstAttribute="leading" secondItem="DH9-PL-9mZ" secondAttribute="leading" id="zc0-gm-u1n"/>
+                            <constraint firstItem="7cO-XZ-afG" firstAttribute="baseline" secondItem="hBk-ad-vB3" secondAttribute="firstBaseline" id="2ns-k5-f1G"/>
+                            <constraint firstItem="7cO-XZ-afG" firstAttribute="baseline" secondItem="hBk-ad-vB3" secondAttribute="baseline" id="5PJ-Qp-OEg"/>
+                            <constraint firstItem="ABv-eh-Zaw" firstAttribute="leading" secondItem="x92-E6-gu4" secondAttribute="leading" id="65D-Hf-8hk"/>
+                            <constraint firstItem="QIK-fg-LzA" firstAttribute="leading" secondItem="ABv-eh-Zaw" secondAttribute="leading" id="9Mm-V6-asD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="x92-E6-gu4" secondAttribute="bottom" constant="359" id="9lM-XZ-a0B"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7cO-XZ-afG" secondAttribute="trailing" constant="86" id="9v7-96-YE5"/>
+                            <constraint firstItem="x92-E6-gu4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="48" id="EUj-sd-Jqt"/>
+                            <constraint firstItem="7cO-XZ-afG" firstAttribute="leading" secondItem="hBk-ad-vB3" secondAttribute="trailing" constant="51" id="OIA-UQ-Iaz"/>
+                            <constraint firstItem="DH9-PL-9mZ" firstAttribute="trailing" secondItem="x92-E6-gu4" secondAttribute="trailing" id="OIe-Ox-6yo"/>
+                            <constraint firstItem="hBk-ad-vB3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="73" id="Va3-QF-Bxk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="7cO-XZ-afG" secondAttribute="bottom" constant="258" id="c8a-1d-EvG"/>
+                            <constraint firstItem="QIK-fg-LzA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="282" id="da4-ZF-1Tg"/>
+                            <constraint firstItem="ABv-eh-Zaw" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ia0-Uf-xpS"/>
+                            <constraint firstItem="7cO-XZ-afG" firstAttribute="top" secondItem="x92-E6-gu4" secondAttribute="bottom" constant="45" id="o7q-ys-sk7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="hBk-ad-vB3" secondAttribute="bottom" constant="258" id="oA2-Nn-Re4"/>
+                            <constraint firstItem="hBk-ad-vB3" firstAttribute="top" secondItem="x92-E6-gu4" secondAttribute="bottom" constant="45" id="uuH-qO-Udl"/>
+                            <constraint firstItem="ABv-eh-Zaw" firstAttribute="top" secondItem="DH9-PL-9mZ" secondAttribute="bottom" constant="41" id="wDp-i5-Fgy"/>
+                            <constraint firstItem="QIK-fg-LzA" firstAttribute="leading" secondItem="DH9-PL-9mZ" secondAttribute="leading" id="woV-H0-NZc"/>
+                            <constraint firstItem="x92-E6-gu4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zTO-Tg-4OS"/>
                         </constraints>
                     </view>
                     <connections>
