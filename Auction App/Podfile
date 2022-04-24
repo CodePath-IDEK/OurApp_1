@@ -6,12 +6,12 @@ target 'Auction App' do
   use_frameworks!
 
   # Pods for Auction App
+  pod 'AlamofireImage'
+  pod 'Parse'
 
   target 'Auction AppTests' do
     inherit! :search_paths
     # Pods for testing
-    pod 'AlamoFireImage'
-    pod 'Parse'
   end
 
   target 'Auction AppUITests' do
