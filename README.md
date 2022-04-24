@@ -1,3 +1,13 @@
+User Story Checklist:
+
+[x] Created Signup functionality
+[x] Created Signin functionality
+[x] Created Logout functionality
+[] Created 3 tab bars for navigation
+
+
+
+
 Original App Design Project - README Template
 ===
 
