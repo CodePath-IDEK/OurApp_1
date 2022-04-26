@@ -32,6 +32,13 @@ class LoginViewController: UIViewController {
             }
         }
     }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let mainTabBarController = segue.destination as? MainTabBarController {
+            mainTabBarController.userName = usernameField.text
+            mainTabBarController.password = passwordField.text
+        }
+    }
+    
     
     @IBAction func onSignUp(_ sender: Any) {
         var user = PFUser()

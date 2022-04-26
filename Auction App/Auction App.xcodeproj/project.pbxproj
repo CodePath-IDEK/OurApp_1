@@ -19,6 +19,8 @@
 		628692C1280E1990004BB50B /* Auction_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628692C0280E1990004BB50B /* Auction_AppTests.swift */; };
 		628692CB280E1990004BB50B /* Auction_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628692CA280E1990004BB50B /* Auction_AppUITests.swift */; };
 		628692CD280E1990004BB50B /* Auction_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628692CC280E1990004BB50B /* Auction_AppUITestsLaunchTests.swift */; };
+		C809BCE0281773A900525A1D /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C809BCDF281773A900525A1D /* MainTabBarController.swift */; };
+		C809BCE22817743800525A1D /* NagivationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C809BCE12817743800525A1D /* NagivationController.swift */; };
 		DFC711EE23CE5FD19203FA27 /* Pods_Auction_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F082A8BD7D6F926BE91D625 /* Pods_Auction_AppTests.framework */; };
 		F292396E3BB6AF3DC9670266 /* Pods_Auction_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 698DBA031FF6F1BF2DD57F19 /* Pods_Auction_App.framework */; };
 /* End PBXBuildFile section */
@@ -63,6 +65,8 @@
 		95A6AE4423F8C5411B66ED89 /* Pods-Auction AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Auction AppTests.debug.xcconfig"; path = "Target Support Files/Pods-Auction AppTests/Pods-Auction AppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A4268F258FF57E98B8982C85 /* Pods-Auction App-Auction AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Auction App-Auction AppUITests.release.xcconfig"; path = "Target Support Files/Pods-Auction App-Auction AppUITests/Pods-Auction App-Auction AppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		ACB207FDBE2907ADC8BDFAA1 /* Pods-Auction App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Auction App.debug.xcconfig"; path = "Target Support Files/Pods-Auction App/Pods-Auction App.debug.xcconfig"; sourceTree = "<group>"; };
+		C809BCDF281773A900525A1D /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		C809BCE12817743800525A1D /* NagivationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NagivationController.swift; sourceTree = "<group>"; };
 		D61E01528B966EFC81DF4F9D /* Pods-Auction App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Auction App.release.xcconfig"; path = "Target Support Files/Pods-Auction App/Pods-Auction App.release.xcconfig"; sourceTree = "<group>"; };
 		E203C0577F5718818F6F808E /* Pods-Auction AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Auction AppTests.release.xcconfig"; path = "Target Support Files/Pods-Auction AppTests/Pods-Auction AppTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -152,6 +156,8 @@
 				628692B7280E198F004BB50B /* Info.plist */,
 				624D2FDF28104CAA008F1055 /* LoginViewController.swift */,
 				624D2FE128104CC5008F1055 /* FeedViewController.swift */,
+				C809BCDF281773A900525A1D /* MainTabBarController.swift */,
+				C809BCE12817743800525A1D /* NagivationController.swift */,
 			);
 			path = "Auction App";
 			sourceTree = "<group>";
@@ -412,8 +418,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C809BCE22817743800525A1D /* NagivationController.swift in Sources */,
 				624D2FE028104CAA008F1055 /* LoginViewController.swift in Sources */,
 				628692AE280E1986004BB50B /* ViewController.swift in Sources */,
+				C809BCE0281773A900525A1D /* MainTabBarController.swift in Sources */,
 				624D2FE228104CC5008F1055 /* FeedViewController.swift in Sources */,
 				628692AA280E1986004BB50B /* AppDelegate.swift in Sources */,
 				628692AC280E1986004BB50B /* SceneDelegate.swift in Sources */,
