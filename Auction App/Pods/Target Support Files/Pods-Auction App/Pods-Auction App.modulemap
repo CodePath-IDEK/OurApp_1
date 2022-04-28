@@ -1,6 +1,0 @@
-framework module Pods_Auction_App {
-  umbrella header "Pods-Auction App-umbrella.h"
-
-  export *
-  module * { export * }
-}
