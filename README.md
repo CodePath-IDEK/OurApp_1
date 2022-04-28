@@ -6,10 +6,10 @@ User Story Checklist:
 - [x] Created A Camera Option
 
 Implement User Stories GIF 2:
-<img src='https://media.giphy.com/media/EhRDKhQUhJyCw9uFet/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<br><img src='https://media.giphy.com/media/EhRDKhQUhJyCw9uFet/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 Implement User Stories GIF:
-<img src='https://media.giphy.com/media/1eHNl6wWIZI0KTIGkU/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<br><img src='https://media.giphy.com/media/1eHNl6wWIZI0KTIGkU/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 
 
