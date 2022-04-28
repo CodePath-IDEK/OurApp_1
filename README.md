@@ -3,12 +3,13 @@ User Story Checklist:
 - [x] Created Signup functionality
 - [x] Created Signin functionality
 - [x] Created Logout functionality
-- [] Created 3 tab bars for navigation
+- [x] Created A Camera Option
+
+Implement User Stories GIF 2:
+<img src='https://media.giphy.com/media/EhRDKhQUhJyCw9uFet/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 Implement User Stories GIF:
-
 <img src='https://media.giphy.com/media/1eHNl6wWIZI0KTIGkU/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
 
 
 
@@ -25,17 +26,17 @@ Original App Design Project - README Template
 
 ## Overview
 ### Description
-An app where various users can bid on a specific stock or cryptocurrency. Whoever bids the highest on a stock, they will be the owner of that specific stock. Additionally, Users can buy, sell, or view their collected earnings.
+An app where various users can text each other and most pictures.
 
 ### App Evaluation
 Stock/Crypocurrency Tracker
-- **Description:** An app where various users can bid on a specific stock or cryptocurrency. Whoever bids the highest on a stock, they will be the owner of that specific stock. Additionally, Users can buy, sell, or view their collected earnings.
-- **Category:** Stock/Crypto Bidding Platform
-- **Mobile:** Uses data of a stock / crypto for users to view
-- **Story:** A simple platform used to purchase and sell a stock / crypto
+- **Description:** An app where various users can text each other and most pictures.
+- **Category:** Social Media Platform
+- **Mobile:** Uses data of of users to post
+- **Story:** A simple platform used to text and post pictures
 - **Market:** Anyone with an account would be able to access this app as long that they create an account within the database.
-- **Habit:** People are using this app daily to constantly monitor the current stock price and total earnings/losses.
-- **Scope:** V1 would lets the users signin/signup. V2 would allow the users to view current stock prices. V3 would let users view current auctions active. V4 would allow users to see total earnings/losses.
+- **Habit:** People are using this app daily to constantly follow social media
+- **Scope:** V1 would lets the users signin/signup. V2 would allow the users to view current posts. V3 would let users comment on a post. V4 would allow users to post.
 
 ## Product Spec
 
@@ -46,16 +47,13 @@ Stock/Crypocurrency Tracker
 * User can Signup
 * User can Login
 * User can Logout
-* User can view current Stocks/Cryptocurrency
-* User can Bid, Sell, and View current earnings
+* User can Post a Picture
+* User can comment on a Post
 
 **Optional Nice-to-have Stories**
 
 * Profile Pictures
 * Friend's/Contacts List
-* Withdraw Earnings
-* News Feed
-* Recommended Price of a Stock/Crypto
 
 ### 2. Screen Archetypes
 
@@ -64,21 +62,16 @@ Stock/Crypocurrency Tracker
    * Password
    * Login
    * Signup
-* Account/Stock Overview
-   * Current Stocks
-   * Current Auctions
-   * Total Earnings/Losses
+* Account Overview
+   * Current Post
+   * Current comments
 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* Current Stocks (With the current price)
-*  Current Auctions the user has entered in
-* Winnings/Losses in Auctions and Total Earnings
-account overview(previous bids, auctions won, earnings etc)
-current aution bidding on
-upcoming auctions
+* Current Post (With the current price)
+*  Current Comment the user has entered in
 **Flow Navigation** (Screen to Screen)
 
 * LogIn/SignUp
@@ -87,9 +80,8 @@ upcoming auctions
    * Username
    * Password
 * Account Overview
-   * Current Stocks
-   * Current Auction
-   * Total Earning/Losses
+   * Current Post
+   * Current Comment
 
 ## Wireframes
 [WireFrame](https://user-images.githubusercontent.com/75055276/162356465-23e227fa-2ede-40c9-a7c5-8f89b6584802.jpg)
