@@ -1,8 +1,7 @@
 //
 //  SceneDelegate.swift
-//  Instagram
 //
-//  Created by Mubde Mohashin on 3/16/22.
+//
 //
 
 import UIKit
