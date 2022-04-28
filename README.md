@@ -3,12 +3,13 @@ User Story Checklist:
 - [x] Created Signup functionality
 - [x] Created Signin functionality
 - [x] Created Logout functionality
-- [] Created A Camera Option
+- [x] Created A Camera Option
+
+Implement User Stories GIF 2:
+<img src='https://media.giphy.com/media/EhRDKhQUhJyCw9uFet/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 Implement User Stories GIF:
-
 <img src='https://media.giphy.com/media/1eHNl6wWIZI0KTIGkU/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
 
 
 
