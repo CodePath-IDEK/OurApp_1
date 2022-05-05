@@ -63,6 +63,15 @@
                                     <action selector="onSignUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QkR-Wq-2yX"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="AUCTION" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pen-eY-Qg2">
+                                <rect key="frame" x="94" y="230" width="226" height="91"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -133,19 +142,30 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QQg-1f-Egx">
+                                                    <rect key="frame" x="384" y="417" width="25" height="25"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <state key="normal" image="star-icon"/>
+                                                </button>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="DkX-Yf-apB" firstAttribute="top" secondItem="46r-qh-dJ8" secondAttribute="top" constant="8" id="00V-HE-TRp"/>
+                                                <constraint firstAttribute="bottom" secondItem="QQg-1f-Egx" secondAttribute="bottom" constant="4" id="0yf-hc-FyH"/>
                                                 <constraint firstItem="AUb-yl-kKC" firstAttribute="top" secondItem="DkX-Yf-apB" secondAttribute="bottom" constant="8" id="2DU-2z-9W2"/>
+                                                <constraint firstAttribute="trailing" secondItem="QQg-1f-Egx" secondAttribute="trailing" constant="5" id="2wV-rz-d9R"/>
                                                 <constraint firstItem="xLQ-fE-5HI" firstAttribute="leading" secondItem="AUb-yl-kKC" secondAttribute="trailing" constant="8" id="3a9-KI-dSJ"/>
+                                                <constraint firstItem="QQg-1f-Egx" firstAttribute="top" secondItem="DkX-Yf-apB" secondAttribute="bottom" constant="8" symbolic="YES" id="5KB-Pt-m9d"/>
                                                 <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="xLQ-fE-5HI" secondAttribute="bottom" constant="8" id="F3Y-ii-ZXA"/>
                                                 <constraint firstItem="xLQ-fE-5HI" firstAttribute="top" secondItem="DkX-Yf-apB" secondAttribute="bottom" constant="8" id="Qwv-Cq-gf5"/>
                                                 <constraint firstItem="xLQ-fE-5HI" firstAttribute="top" secondItem="DkX-Yf-apB" secondAttribute="bottom" constant="8" id="Wnu-Dg-1zg"/>
                                                 <constraint firstItem="DkX-Yf-apB" firstAttribute="leading" secondItem="46r-qh-dJ8" secondAttribute="leading" constant="8" id="Y6b-0G-kA5"/>
                                                 <constraint firstAttribute="trailing" secondItem="DkX-Yf-apB" secondAttribute="trailing" constant="8" id="YHd-0l-FNt"/>
                                                 <constraint firstItem="AUb-yl-kKC" firstAttribute="top" secondItem="DkX-Yf-apB" secondAttribute="bottom" constant="8" id="iwN-gl-zqp"/>
+                                                <constraint firstAttribute="trailing" secondItem="QQg-1f-Egx" secondAttribute="trailing" constant="5" id="j6w-Hd-0kP"/>
                                                 <constraint firstItem="AUb-yl-kKC" firstAttribute="leading" secondItem="46r-qh-dJ8" secondAttribute="leading" constant="16" id="oCx-Cf-Sml"/>
                                                 <constraint firstItem="xLQ-fE-5HI" firstAttribute="leading" secondItem="AUb-yl-kKC" secondAttribute="trailing" constant="8" id="uDZ-gI-5zs"/>
+                                                <constraint firstAttribute="bottom" secondItem="QQg-1f-Egx" secondAttribute="bottom" constant="4" id="xt1-wy-aXm"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
@@ -191,14 +211,14 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="AddCommentCell" id="wDP-mo-nsw">
-                                        <rect key="frame" x="0.0" y="528" width="414" height="37"/>
+                                        <rect key="frame" x="0.0" y="528" width="414" height="37.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="wDP-mo-nsw" id="3RT-lT-nZ3">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="37"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="37.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add a comment..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DGh-VG-HLr">
-                                                    <rect key="frame" x="16" y="8" width="390" height="21"/>
+                                                    <rect key="frame" x="16" y="8" width="390" height="21.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" systemColor="systemGray3Color"/>
                                                     <nil key="highlightedColor"/>
@@ -310,11 +330,15 @@
     <resources>
         <image name="camera.circle.fill" catalog="system" width="128" height="121"/>
         <image name="camera.shutter.button" catalog="system" width="128" height="109"/>
+        <image name="star-icon" width="25" height="25"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemGray3Color">
             <color red="0.7803921568627451" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
