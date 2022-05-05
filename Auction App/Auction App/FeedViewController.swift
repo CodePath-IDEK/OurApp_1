@@ -123,6 +123,8 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
             
             cell.photoView.af.setImage(withURL: url)
             
+        // cell.setFavorite((posts[indexPath.row]["favorited"] as? Bool)! )
+            
             return cell
         }
         else if indexPath.row <= comments.count {

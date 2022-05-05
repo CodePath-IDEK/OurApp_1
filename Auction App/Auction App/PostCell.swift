@@ -22,5 +22,33 @@ class PostCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-
+    
+    @IBOutlet weak var starB1: UIButton!
+    @IBOutlet weak var starB2: UIButton!
+    @IBOutlet weak var starB3: UIButton!
+    @IBOutlet weak var starB4: UIButton!
+    
+    
+    
+    @IBAction func starbutton1(_ sender: Any) {
+    }
+    
+    var favorited:Bool = false;
+    func setFavorite(_ isFavorited:Bool) {
+        favorited = isFavorited
+        if (favorited) {
+            starB1.setImage(UIImage(named: "star-icon-blue"), for: UIControl.State.normal)
+            starB2.setImage(UIImage(named: "star-icon-blue"), for: UIControl.State.normal)
+            starB3.setImage(UIImage(named: "star-icon-blue"), for: UIControl.State.normal)
+            starB4.setImage(UIImage(named: "star-icon-blue"), for: UIControl.State.normal)
+        }
+        else {
+            starB1.setImage(UIImage(named: "star-icon"), for: UIControl.State.normal)
+            starB2.setImage(UIImage(named: "star-icon"), for: UIControl.State.normal)
+            starB3.setImage(UIImage(named: "star-icon"), for: UIControl.State.normal)
+            starB4.setImage(UIImage(named: "star-icon"), for: UIControl.State.normal)
+        }
+    }
+    
+    
 }
