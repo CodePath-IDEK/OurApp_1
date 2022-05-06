@@ -117,11 +117,11 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="PostCell" rowHeight="446" id="Uja-6O-sCq" customClass="PostCell" customModule="Auction_App" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="44.5" width="414" height="446"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="PostCell" rowHeight="454" id="Uja-6O-sCq" customClass="PostCell" customModule="Auction_App" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="44.5" width="414" height="454"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Uja-6O-sCq" id="46r-qh-dJ8">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="446"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="454"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DkX-Yf-apB">
@@ -155,20 +155,20 @@
                                                     </connections>
                                                 </button>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" pointerInteraction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4zv-2y-Irj" userLabel="starB2">
-                                                    <rect key="frame" x="355" y="417" width="29" height="25"/>
+                                                    <rect key="frame" x="355" y="415" width="29" height="29"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="29" id="zGt-B6-crJ"/>
+                                                        <constraint firstAttribute="width" constant="29" id="o92-lC-RJg"/>
                                                     </constraints>
                                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                     <state key="normal" image="star-icon"/>
                                                 </button>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" pointerInteraction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dpu-FS-t20" userLabel="starB4">
-                                                    <rect key="frame" x="301" y="417" width="25" height="25"/>
+                                                    <rect key="frame" x="301" y="415" width="25" height="29"/>
                                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                     <state key="normal" image="star-icon"/>
                                                 </button>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" pointerInteraction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="scQ-PR-Sah" userLabel="starB3">
-                                                    <rect key="frame" x="327" y="417" width="27" height="25"/>
+                                                    <rect key="frame" x="328" y="417" width="27" height="25"/>
                                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                     <state key="normal" image="star-icon"/>
                                                 </button>
@@ -176,26 +176,31 @@
                                             <constraints>
                                                 <constraint firstItem="DkX-Yf-apB" firstAttribute="top" secondItem="46r-qh-dJ8" secondAttribute="top" constant="8" id="00V-HE-TRp"/>
                                                 <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="QQg-1f-Egx" secondAttribute="bottom" constant="4" id="0yf-hc-FyH"/>
+                                                <constraint firstItem="4zv-2y-Irj" firstAttribute="centerY" secondItem="Dpu-FS-t20" secondAttribute="centerY" id="26z-0o-PJS"/>
                                                 <constraint firstItem="AUb-yl-kKC" firstAttribute="top" secondItem="DkX-Yf-apB" secondAttribute="bottom" constant="8" id="2DU-2z-9W2"/>
                                                 <constraint firstAttribute="trailing" secondItem="QQg-1f-Egx" secondAttribute="trailing" constant="5" id="2wV-rz-d9R"/>
                                                 <constraint firstItem="xLQ-fE-5HI" firstAttribute="leading" secondItem="AUb-yl-kKC" secondAttribute="trailing" constant="8" id="3a9-KI-dSJ"/>
                                                 <constraint firstItem="QQg-1f-Egx" firstAttribute="top" secondItem="DkX-Yf-apB" secondAttribute="bottom" constant="8" symbolic="YES" id="5KB-Pt-m9d"/>
+                                                <constraint firstItem="Dpu-FS-t20" firstAttribute="top" secondItem="DkX-Yf-apB" secondAttribute="bottom" constant="6" id="82v-Tv-WcQ"/>
                                                 <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="xLQ-fE-5HI" secondAttribute="bottom" constant="8" id="F3Y-ii-ZXA"/>
-                                                <constraint firstItem="4zv-2y-Irj" firstAttribute="top" secondItem="scQ-PR-Sah" secondAttribute="top" id="Hvw-ld-xDZ"/>
+                                                <constraint firstItem="QQg-1f-Egx" firstAttribute="leading" secondItem="4zv-2y-Irj" secondAttribute="trailing" id="Fiu-l6-b2J"/>
+                                                <constraint firstAttribute="bottom" secondItem="4zv-2y-Irj" secondAttribute="bottom" constant="10" id="LjA-H4-0O6"/>
+                                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="scQ-PR-Sah" secondAttribute="bottom" constant="12" id="Na8-uE-nje"/>
+                                                <constraint firstItem="4zv-2y-Irj" firstAttribute="top" secondItem="DkX-Yf-apB" secondAttribute="bottom" constant="6" id="ON3-so-3a9"/>
                                                 <constraint firstAttribute="trailing" secondItem="Dpu-FS-t20" secondAttribute="trailing" constant="88" id="OTp-CT-NGO"/>
                                                 <constraint firstItem="xLQ-fE-5HI" firstAttribute="top" secondItem="DkX-Yf-apB" secondAttribute="bottom" constant="8" id="Qwv-Cq-gf5"/>
                                                 <constraint firstItem="xLQ-fE-5HI" firstAttribute="top" secondItem="DkX-Yf-apB" secondAttribute="bottom" constant="8" id="Wnu-Dg-1zg"/>
                                                 <constraint firstItem="DkX-Yf-apB" firstAttribute="leading" secondItem="46r-qh-dJ8" secondAttribute="leading" constant="8" id="Y6b-0G-kA5"/>
                                                 <constraint firstAttribute="trailing" secondItem="DkX-Yf-apB" secondAttribute="trailing" constant="8" id="YHd-0l-FNt"/>
-                                                <constraint firstItem="QQg-1f-Egx" firstAttribute="leading" secondItem="4zv-2y-Irj" secondAttribute="trailing" id="abC-uZ-fN8"/>
-                                                <constraint firstItem="4zv-2y-Irj" firstAttribute="top" secondItem="DkX-Yf-apB" secondAttribute="bottom" constant="8" symbolic="YES" id="dTK-Iy-ckn"/>
-                                                <constraint firstItem="scQ-PR-Sah" firstAttribute="leading" secondItem="Dpu-FS-t20" secondAttribute="trailing" constant="1" id="hYd-07-rYW"/>
+                                                <constraint firstItem="scQ-PR-Sah" firstAttribute="top" secondItem="DkX-Yf-apB" secondAttribute="bottom" constant="8" id="cV6-u5-dRj"/>
+                                                <constraint firstItem="4zv-2y-Irj" firstAttribute="leading" secondItem="scQ-PR-Sah" secondAttribute="trailing" id="gfx-6z-eF0"/>
+                                                <constraint firstItem="scQ-PR-Sah" firstAttribute="leading" secondItem="Dpu-FS-t20" secondAttribute="trailing" constant="2" id="hYd-07-rYW"/>
                                                 <constraint firstItem="AUb-yl-kKC" firstAttribute="top" secondItem="DkX-Yf-apB" secondAttribute="bottom" constant="8" id="iwN-gl-zqp"/>
                                                 <constraint firstItem="AUb-yl-kKC" firstAttribute="leading" secondItem="46r-qh-dJ8" secondAttribute="leading" constant="16" id="oCx-Cf-Sml"/>
-                                                <constraint firstAttribute="bottom" secondItem="4zv-2y-Irj" secondAttribute="bottom" constant="4" id="pes-c5-dLH"/>
-                                                <constraint firstItem="4zv-2y-Irj" firstAttribute="top" secondItem="Dpu-FS-t20" secondAttribute="top" id="tA6-bf-CTb"/>
+                                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Dpu-FS-t20" secondAttribute="bottom" constant="10" id="prf-hD-1iA"/>
+                                                <constraint firstItem="Dpu-FS-t20" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="xLQ-fE-5HI" secondAttribute="trailing" constant="8" symbolic="YES" id="tTP-GV-sIf"/>
                                                 <constraint firstItem="xLQ-fE-5HI" firstAttribute="leading" secondItem="AUb-yl-kKC" secondAttribute="trailing" constant="8" id="uDZ-gI-5zs"/>
-                                                <constraint firstItem="4zv-2y-Irj" firstAttribute="leading" secondItem="scQ-PR-Sah" secondAttribute="trailing" constant="1" id="vLA-j5-45a"/>
+                                                <constraint firstItem="4zv-2y-Irj" firstAttribute="centerY" secondItem="QQg-1f-Egx" secondAttribute="centerY" id="yyb-TD-fuM"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
@@ -209,7 +214,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CommentCell" id="g3e-Ej-Nc3" customClass="CommentCell" customModule="Auction_App" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="490.5" width="414" height="37.5"/>
+                                        <rect key="frame" x="0.0" y="498.5" width="414" height="37.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="g3e-Ej-Nc3" id="EfH-Nw-zZn">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="37.5"/>
@@ -245,7 +250,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="AddCommentCell" id="wDP-mo-nsw">
-                                        <rect key="frame" x="0.0" y="528" width="414" height="37.5"/>
+                                        <rect key="frame" x="0.0" y="536" width="414" height="37.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="wDP-mo-nsw" id="3RT-lT-nZ3">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="37.5"/>
