@@ -20,7 +20,7 @@ Implement User Stories GIF:
 Original App Design Project - README Template
 ===
 
-# Stock Auction App
+# Auction App
 
 ## Table of Contents
 1. [Overview](#Overview)
