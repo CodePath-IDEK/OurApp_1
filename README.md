@@ -33,7 +33,7 @@ Original App Design Project - README Template
 An app where various users can text each other and most pictures.
 
 ### App Evaluation
-Stock/Crypocurrency Tracker
+Auction Application
 - **Description:** An app where various users can text each other and most pictures.
 - **Category:** Social Media Platform
 - **Mobile:** Uses data of of users to post
