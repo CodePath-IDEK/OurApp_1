@@ -31,7 +31,20 @@ class PostCell: UITableViewCell {
     
     
     @IBAction func starbutton1(_ sender: Any) {
+        self.starB1.backgroundColor = UIColor.yellow
     }
+    @IBAction func starbutton2(_ sender: Any) {
+        self.starB2.backgroundColor = UIColor.yellow
+    }
+    
+    @IBAction func starbutton3(_ sender: Any) {
+        self.starB3.backgroundColor = UIColor.yellow
+    }
+    
+    @IBAction func starbutton4(_ sender: Any) {
+        self.starB4.backgroundColor = UIColor.yellow
+    }
+    
     
     var favorited:Bool = false;
     func setFavorite(_ isFavorited:Bool) {
